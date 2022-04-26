@@ -22,7 +22,7 @@ const Home = () => {
   const [showFilters, setShowFilters] = useState(true);
 
   const getProductsEndpoint =
-    "https://us-east-1.aws.data.mongodb-api.com/app/searchstore-zhtzd/endpoint/products";
+    "https://ap-south-1.aws.data.mongodb-api.com/app/cluster0-ygcys/endpoint/products";
 
   const getProducts = async () => {
     let data = {
